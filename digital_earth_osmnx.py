@@ -89,8 +89,6 @@ print ("Nodes: ", N)
 print ("Edges: ", K)
 print ("Average degree: ", avg_deg)
 
-graph_ud = graph.to_undrirected()
-# Centralitás
-graph_comps = nx.connected_compontent_subgraphs(graph_ud)
-graph_mc = graph_comps[0]
-bet_cen = nx.betweenness_centrality(graph_mc)
+graph_ud = nx.to_undirected(graph)
+
+
