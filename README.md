@@ -1,2 +1,2 @@
-# digitalearth
+# Digital Earth
 Digitális Föld projektfeladat 
